@@ -50,7 +50,6 @@ video {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  /* position: absolute; */
   white-space: nowrap;
 }
 
@@ -176,7 +175,6 @@ video {
 }
 
 input[type="checkbox"]:checked+.search-form__pseudo-checkbox::after {
-  position: absolute;
   content: "";
   width: 18px;
   height: 18px;
